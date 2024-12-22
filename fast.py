@@ -5,7 +5,7 @@ import pickle
 
 
 # تحميل النموذج المحفوظ
-with open(r'C:\Users\DELL\Downloads\multioutput_model.pkl', 'rb') as f:
+with open(r'multioutput_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 
